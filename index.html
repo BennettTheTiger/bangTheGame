@@ -64,6 +64,7 @@ Version 1.0.0
 		<script src="js/directorsCut.js"></script>
 		<script src="js/peterson.js"></script>
 		<script src="js/okCoral.js"></script>
+		<script src="js/schoonerman.js"></script>
 	<!-- Has unEditied copies so when the deck is depleated the array can be replentished ---------->
 		<script src="js/backUp.js"></script>
 	</head>
@@ -98,6 +99,7 @@ Version 1.0.0
 		<input type="radio" value="3" name="pack"><span class="names">  Peterson Pack</span><br>
 		<input type="radio" value="4" name="pack"><span class="names">  O.K Corral</span><br>
 		<input type="radio" value="5" name="pack"><span class="names">  Directors Cut</span><br>
+		<input type="radio" value="6" name="pack"><span class="names">  Schoonerman Pack</span><br>
 </div>	
 </div>
 	<!-- The lower data display where the content from the scripts is placed ---------------------->
@@ -151,6 +153,9 @@ Version 1.0.0
 				if(decks[i].value==5){
 					directorFlip();// calls the directors cut deck
 				}
+				if(decks[i].value==6){
+					schoonermanFlip();// calls the directors cut deck
+				}
 			}//end of decks checked	
 		}//end of deck search
 		//else(alert("Opps pick a deck first!");
@@ -203,6 +208,10 @@ Version 1.0.0
 						document.getElementById('packName').innerHTML = "Directors Cut";
 						deckPicked = true;
 					}
+					if(i==6){
+						document.getElementById('packName').innerHTML = "Schoonerman Pack";
+						deckPicked = true;
+					}
 					document.getElementById('cardName').innerHTML = "";
 					document.getElementById('cardInfo').innerHTML = "";
 				}//end of deck value check
@@ -219,6 +228,7 @@ Version 1.0.0
 		directorsCut = directorBackup;
 		petersonPack = petersonBackUp;
 		okCorral = okBackup;
+		schoonerman = schoonermanBackup;
 		document.getElementById('cardName').innerHTML = "The Decks Have Been Shuffled";
 		document.getElementById('cardInfo').innerHTML = "Click Next to Start a New Game! ";
 		//alert("You Started a New Game");
@@ -228,7 +238,7 @@ Version 1.0.0
     $(document).ready(setTimeout(function(){
 		$("#overlay").hide();
 	 //alert("ready");
-    },1800));
+    },1800));//loadTime
 </script>
 </body>
 </html>
