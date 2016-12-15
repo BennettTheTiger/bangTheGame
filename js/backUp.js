@@ -375,3 +375,96 @@ var directorBackup = [
 				"cardData":"All players see each other at distance 1 by default, but this is modified by cards in play. During their turns, players may only play BANG! or put guns in play."
 			}
 		];//end of dirctors card pack
+
+var schoonermanBackup = [
+			{
+				"cardName":"Unlimited Ammunition",
+				"cardData":"You can shoot as many shots as Bang cards allow."			
+			},
+			{
+				"cardName":"Zombie Apocalypse",
+				"cardData":"All players who are dead come back from the dead with 2 lives. They can NOT regain lives!"			
+			},
+			{
+				"cardName":"Haunting",
+				"cardData":"If an outlaw has died they can pick any player and have them lay all their cards out General Store style. Then staring with the player to the right of the dead outlaw disperse the cards like a general store. Not all players are garenteed a card."			
+			},
+			{"cardName":"Breakin the law!:",
+				"cardData":"This round is played counter clockwise!"
+			
+			},
+			{"cardName":"Explosive Situation:",
+				"cardData":"Any dynamite in play detonates! Also dealing a loss of two life points to the people on the left and right of the dynamite."
+			
+			},
+			{"cardName":"Scavengers:",
+				"cardData":"You can draw your cards from the discard pile if possible."
+			
+			},
+			{"cardName":"Traveling Man:",
+				"cardData":"On each players turn they may choose to swap their seat with another player."
+			
+			},
+			{"cardName":"Gypsy Rose:",
+				"cardData":"On your turn you may look at one other player’s hand."
+			
+			},
+			{"cardName":"Spit Shake:",
+				"cardData":"You may give any player one of your cards. That player must then give you one of his. He is allowed to give the same card back."
+			
+			},
+			{"cardName":"Indian Poker:",
+				"cardData":"Everyone draws! a card and holds it to forehead facing out. Each player discards or holds. Highest card wins and gets cards of losers who must discard all hand cards. Order: A♥-♦-♣-2♠"
+			
+			},
+			{"cardName":"Famine:",
+				"cardData":"Times are tough, all players lose one life point. All horses are killed for food, discard any in play."
+			
+			},
+			{"cardName":"Brew Crew:",
+				"cardData":"You may give any player one of your beer cards."
+			
+			},
+			{"cardName":"Drought",
+				"cardData":"Lose a life point unless you have a barrel in play. Stay thirsty my friends ;)"
+			
+			},
+			{"cardName":"Libs on the loose:",
+				"cardData":"Any guns in play are taken."
+			
+			},
+			{"cardName":"The Plage:",
+				"cardData":"If anyone dies this round, so does the player that killed them."
+			},
+			{"cardName":"Good to know you:",
+				"cardData":"The Sheriff may peek at one players identity."
+			
+			},
+			{"cardName":"Ladies man:",
+				"cardData":"All players who have a female abiltiy card gain one life."
+			},
+			{"cardName":"Train Robbers:",
+				"cardData":"General Store except the sheriff does not get a card."
+			},
+			{"cardName":"Gambler:",
+				"cardData":"Players may choose to pick one card and place it in the middle face down. Then each player who opted in picks one going clockwise starting with whoever declared the 'gamble'. Each player can only do this once in their turn."
+			},
+			{"cardName":"Dust Storm:",
+				"cardData":"Its a nasty duster out there, your scope gets dusty and is ruined. All scopes are discarded. "
+			},
+			{"cardName":"Gambler:",
+				"cardData":"Players may choose to pick one card and place it in the middle face down. Then each player who opted in picks one card going clockwise starting with whoever declared the 'gamble'. Each player can only do this once in their turn. A gamble can only happen 3 times in a round."
+			},
+			{"cardName":"Prision Break:",
+				"cardData":"Any player that is curently in jail gets out, whoever put them in jail gets the jail card played on them. This also applies to the Sheriff."
+			},
+			{"cardName":"Irritated Indians:",
+				"cardData":"The Indians have had enough, they are stroming the town it takes two bangs to kill indians this round."
+			},
+			{"cardName":"Rock, Paper, Knife, Shoot:",
+				"cardData":"On your turn you can choose to ♣-Rock, ♦-Paper, ♥-Knife, ♠-Shoot with anyone in your scope of view. Each player flips the top card of the deck. You can flip cards or do it old school. A loss reults in the loss of one life point. Card ranking lowest to highest ♦,♣,♥,♠, on a tie repeat the process until a winner is determined."
+			},
+			
+			
+		
+		];//end of schoonerman card pack

@@ -3,7 +3,7 @@
 		var okCorral = [
 			{
 				"cardName":"Deadly Deal:",
-				"cardData":"On your turn you may lose 1 life point and discard all cards into a new discard deck. Then 'draw' the same amount of cards from the primary discard deck."			
+				"cardData":"On your turn you may lose 1 life point and discard all cards. Then 'draw' the same amount of cards from the primary discard deck."			
 			},
 			{
 				"cardName":"Bullseye:",

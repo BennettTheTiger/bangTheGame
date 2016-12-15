@@ -3,7 +3,7 @@
 		var directorsCut = [
 			{
 				"cardName":"Bounty Wanted!:",
-				"cardData":"The Sheriff places a bounty of 5 cards on the elimination of a player of his choice."			
+				"cardData":"The Sheriff places a bounty of 5 cards for the elimination of a player of his choice."			
 			},
 			{
 				"cardName":"Hanging:",
